@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibitor Dashboard - CompSci Conference 24</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Main Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="CompSci Conference 24 Logo">
+                <h1>CompSci Conference 24</h1>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="../homepage.html" class="dropbtn">Home</a>
+                    <!-- Dropdown Menu for Exhibitor Page -->
+                    <ul class="dropdown-content">
+                        <li><a href="#">My Itinerary</a></li>
+                        <li><a href="#">Scanned Barcodes</a></li>
+                        <li><a href="#">Available Sessions</a></li>
+                        <li><a href="#">Networking</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Exhibitor Dashboard Content -->
+    <div class="exhibitor-container">
+        <div class="exhibitor-header">
+            <div class="account-section">
+                <img src="user-icon.png" alt="User Icon">
+                <span>My Account</span>
+            </div>
+            <h2>Hi John!</h2>
+        </div>
+
+        <div class="scan-section">
+            <h3>Scan Barcode</h3>
+            <img src="barcode-placeholder.png" alt="Barcode Placeholder" class="barcode-image">
+            <button class="scan-button">Scan here!</button>
+        </div>
+
+        <div class="current-stand-section">
+            <h3>Current Stand</h3>
+            <div class="current-stand">
+                <div class="stand-info">
+                    Company: Sprints AI <br>
+                    Number: Stand 189
+                </div>
+            </div>
+        </div>
+
+        <div class="checked-in-section">
+            <h3>Checked in Delegates</h3>
+            <div class="checked-in-list">
+                <div class="checked-in-item"><img src="user-icon.png" alt="User Icon"> Jane Doe</div>
+                <div class="checked-in-item"><img src="user-icon.png" alt="User Icon"> Chris Evans</div>
+                <div class="checked-in-item"><img src="user-icon.png" alt="User Icon"> Christine Adams</div>
+                <div class="checked-in-item"><img src="user-icon.png" alt="User Icon"> Joe Bloggs</div>
+                <div class="checked-in-item"><img src="user-icon.png" alt="User Icon"> Henry Lee</div>
+                <div class="checked-in-item"><img src="user-icon.png" alt="User Icon"> Eva Dennis</div>
+            </div>
+            <a href="#" class="manage-link">Delegate Interactions</a>
+        </div>
+
+        <div class="tools-section">
+            <h3>Exhibitor Tools</h3>
+            <div class="exhibitor-tools">
+                <a href="#" class="tool-link">Manage Stand</a>
+                <a href="#" class="tool-link">Set Up New Stand</a>
+                <a href="#" class="tool-link">Switch To Delegate Role</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
